@@ -1,0 +1,34 @@
+<form [formGroup]="formGroup" class="form">
+    <p>
+        <mat-form-field id="legacy" appearance="legacy">
+            <mat-label>Legacy form field</mat-label>
+            <input formControlName="email1" matInput placeholder="Placeholder">
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-hint>Hint</mat-hint>
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field id="standard"  appearance="standard">
+            <mat-label>Standard form field</mat-label>
+            <input formControlName="email2" matInput placeholder="Placeholder">
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-hint>Hint</mat-hint>
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field id="fill" appearance="fill">
+            <mat-label>Fill form field</mat-label>
+            <input formControlName="email3" matInput placeholder="Placeholder">
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-hint>Hint</mat-hint>
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field id="outline" appearance="outline">
+            <mat-label>Outline form field</mat-label>
+            <input formControlName="email4" matInput placeholder="Placeholder">
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-hint>Hint</mat-hint>
+        </mat-form-field>
+    </p>
+</form>
